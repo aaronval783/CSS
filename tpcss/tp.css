@@ -1,22 +1,23 @@
 
         body{
-            font-family: "Sour Gummy", sans-serif;
+            font-family: "Sour Gummy", sans-serif; /* aplico estilo de fuente a la página */
         }
         img {
-            border-radius: 50%;
+            border-radius: 50%; /* redondeo la imagen */
         }
 
 
         /* Header */
         header {
-            border-bottom: 2px solid #71CA53;
-          text-align: center;
-          margin-bottom: 15px;
+            border-bottom: 2px solid #71CA53; /*linea de borde abajo del box*/
+          text-align: center; /* centro el contenido */
+          margin-bottom: 15px; /*margen del header hacia debajo*/
         }
 
+        /*subtitlo*/
         .subt{
-            font-style: italic;
-            color: grey;
+            font-style: italic; /*fuente estilo italic (inclinado)*/
+            color: grey; /*color gris al subtitulo*/
         }
        
 
@@ -26,39 +27,39 @@
             margin: 0 auto; /* margin son los márgenes 
             0 es aplicado al top y al bottom
             auto es automático (ajuste) al left y al right*/
-            border: 2px solid #ACCA53;
-          padding: 5px;
-            box-shadow: 0px 0px 75px 5px #3E9B3B;
+            border: 2px solid #ACCA53; /*colorea el borde de la página*/
+          padding: 5px; /*separa el contenido del borde*/
+            box-shadow: 0px 0px 75px 5px #3E9B3B; /*configuro el sombreado de la página */
         }
 
         /* selector por descendencia */
         main ul {
-            list-style: none;
+            list-style: none; /*quito los simbolos automaticos de la lista*/
             border: 2px solid #53CA71;
-            border-radius: 5px;
-            background-color: #ACCA53;
+            border-radius: 5px; /*redondea esquinas*/
+            background-color: #ACCA53; /*coloreo el fondo de la lista*/
         }
 
         /* selector por descendencia */
         main ul li {
-            border-bottom: 1px solid #53CA71;
-            padding: 8;
+            border-bottom: 1px solid #53CA71; /* hace un "renglón a los elementos de la lista*/
+            padding: 8px;
         }
 
         /* selector por descendencia */
         main ul li span {
-            font-weight: 900;
+            font-weight: 900; /*hace un "strong"/"negrita" a lo anteriormente seleccionado*/
         }
 
         /* Formulario */
-        input[type="text"],
+        input[type="text"],/*selecciono... las etiquetas de texto,password,email etc*/ 
         input[type="password"],
         input[type="email"],
         input[type="number"],
         select,
         textarea {
             background-color: #bcf4cb;
-            width: 95%;
+            width: 95%; /* ajusto a tamaño de la pagina*/
             border: 2px solid #bcf4cb;
             padding: 5px;
             border-radius: 6px;
@@ -73,26 +74,27 @@
         width: 20px;
         height: 20px;
       }
-
+      /* div/caja de ambos botones */
       .contenedor-btn {
-        border-top: 2px dashed green;
-        padding-top: 10px;
+        border-top: 2px dashed green; /*linea punteada en el lado superior del box*/
+        padding-top: 10px; /* separacion entre el contenido y el borde superior*/
       }
-
+      /* btn (class de ambos botones) */
      .btn{
-        border: 2px solid black;
+        border: 2px solid black; 
         border-radius: 5px;
         font-weight: 500;
-        padding: 4px;
+        padding: 4px;   
      }
 
+     /* ID del boton "contacto" */
       #btn-contacto {
-        background-color: cyan;
-      }
-
+        background-color: cyan; /* fondo de boton celeste */
+      }   
+      /* ID del boton "portafolio" */
       #btn-portafolio{
-        background-color: red;
-    margin-top: 10px;
+        background-color: red; /*fondo de boton rojo*/
+    margin-top: 10px; 
       }
 
    
