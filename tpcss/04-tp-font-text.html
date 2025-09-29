@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+<link rel="stylesheet" href="./tp.css">
+
+    
+</head>
+
+<body>
+    <header><img src="../assets/imagenes/messi.webp" alt="Perfil de Messi" width="250">
+        <h1>Lionel Messi</h1>
+        <h2 class="subt">Fútbolista Profesional</h2>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Acerca de mí</h2>
+            <p>Reconocido por muchos como el mejor futbolista y uno de los mejores deportistas de todos los tiempos,
+                <br> ha ganado 44 títulos colectivos y más de 50 títulos individuales en su carrera. Es el jugador con
+                más
+                <br> "Balones de Oro" y uno de los pocos en ganar una medalla de oro en los juegos olímpicos y un
+                Mundial.
+            </p>
+
+            <ul>
+                <li>
+                    <span>Email:</span> liomessi@gmail.com
+                </li>
+                <li>
+                    <span>Ubicación:</span> Miami, Estados Unidos
+                </li>
+                <li>
+                    <span>Experiencia:</span> 22 años
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contacto de Leo</h2>
+            <form action="">
+                <div><label for="nombre">Nombre Completo</label> <br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre completo" required class="colores"> <br>
+                    <p>Este campo es obligatorio</p>
+                </div>
+
+                <div><label for="correo">Correo eletrónico</label> <br>
+                    <input type="email" name="correo" id="correo" placeholder="ejemplo@correo.com" required class="colores"> <br>
+                    <p>Por favor ingresa un email válido</p>
+                </div>
+
+                <div><label for="contraseña">Contraseña</label> <br>
+                    <input type="password" name="contraseña" id="contraseña" placeholder="•••••••••••" required class="contraseña"> <br>
+                    <p>La contraseña debe tener al menos 8 carácteres</p>
+                </div>
+
+                <div><label for="telef">Teléfono</label> <br>
+                    <input type="number" name="telef" id="telef" placeholder="Opcional" class="colores">
+                </div>
+
+                <div><label for="pais">País</label> <br>
+                    <select name="pais" id="pais" class="colores"   >
+                        <option value="">Selecciona un país</option>
+                        <option value="arg">Argentina</option>
+                        <option value="bra">Brasil</option>
+                        <option value="uy">Uruguay</option>
+                        <option value="cl">Chile</option>
+                        <option value="par">Paraguay</option>
+                    </select>
+                </div>
+
+                <div><label for="interes">Intereses (opcional)</label> <br>
+                    <textarea name="interes" id="interes" placeholder="Cuéntanos sobre tus intereses..." class="colores"></textarea>
+                </div>
+
+                <div><label for="terminos">Acepto los términos y condiciones</label> <br>
+                    <input type="checkbox" name="terminos" id="terminos" required>
+                    <p>Debes aceptar los términos para continuar</p>
+                </div>
+
+                <div class="contenedor-btn">
+                    <input id="btn-contacto" class="btn" type="submit" value="contacto">
+                    <input id="btn-portafolio" class="btn" type="submit" value="portafolio">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

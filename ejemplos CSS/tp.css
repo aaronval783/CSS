@@ -1,0 +1,56 @@
+img {
+    border-radius: 50%;
+}
+
+
+/* Header */
+header {
+    border-bottom: 2px solid #71CA53;
+    text-align: center;
+}
+
+h1{
+    padding-left: 10px;
+}
+
+
+/* Main */
+main {
+    width: 700px;
+    /* defino el ancho del main en px */
+    margin: 0 auto;
+    /* margin son los márgenes 
+            0 es aplicado al top y al bottom
+            auto es automático (ajuste) al left y al right*/
+    border: 2px solid #ACCA53;
+    border-radius: 4px;
+    box-shadow: 0px 0px 75px 47px #3E9B3B;
+}
+
+
+/* selector por descendencia */
+main ul {
+    list-style: none;
+    border: 2px solid #53CA71;
+}
+
+/* selector por descendencia */
+main ul li {
+    border-bottom: 1px solid #53CA71;
+    padding: 8;
+    background-color: #ACCA53;
+}
+
+/* selector por descendencia */
+main ul li span {
+    font-weight: 900;
+}
+
+/* Formulario */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+
+    width: 100%;
+}

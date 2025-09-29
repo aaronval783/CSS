@@ -1,0 +1,98 @@
+
+        body{
+            font-family: "Sour Gummy", sans-serif;
+        }
+        img {
+            border-radius: 50%;
+        }
+
+
+        /* Header */
+        header {
+            border-bottom: 2px solid #71CA53;
+          text-align: center;
+          margin-bottom: 15px;
+        }
+
+        .subt{
+            font-style: italic;
+            color: grey;
+        }
+       
+
+        /* Main */
+        main {
+            width: 700px; /* defino el ancho del main en px */
+            margin: 0 auto; /* margin son los márgenes 
+            0 es aplicado al top y al bottom
+            auto es automático (ajuste) al left y al right*/
+            border: 2px solid #ACCA53;
+          padding: 5px;
+            box-shadow: 0px 0px 75px 5px #3E9B3B;
+        }
+
+        /* selector por descendencia */
+        main ul {
+            list-style: none;
+            border: 2px solid #53CA71;
+            border-radius: 5px;
+            background-color: #ACCA53;
+        }
+
+        /* selector por descendencia */
+        main ul li {
+            border-bottom: 1px solid #53CA71;
+            padding: 8;
+        }
+
+        /* selector por descendencia */
+        main ul li span {
+            font-weight: 900;
+        }
+
+        /* Formulario */
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            background-color: #bcf4cb;
+            width: 95%;
+            border: 2px solid #bcf4cb;
+            padding: 5px;
+            border-radius: 6px;
+        }
+
+        input[type="passoword"] {
+            background-color: #FFEE8C;
+        }
+
+
+      input[type="checkbox"]{
+        width: 20px;
+        height: 20px;
+      }
+
+      .contenedor-btn {
+        border-top: 2px dashed green;
+        padding-top: 10px;
+      }
+
+     .btn{
+        border: 2px solid black;
+        border-radius: 5px;
+        font-weight: 500;
+        padding: 4px;
+     }
+
+      #btn-contacto {
+        background-color: cyan;
+      }
+
+      #btn-portafolio{
+        background-color: red;
+    margin-top: 10px;
+      }
+
+   
